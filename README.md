@@ -34,3 +34,11 @@ The saturation enforcment contract is responsible for calling for the creation o
 
 ## Daughter Pools
 Daughter Pools are created whenever a crowdfunding target is reached. When a miners joins a 'pool' they are joining a daughter pool. The daughter pools share all of their block rewards with the SmartPool and the Smart Pool pays the miners.
+
+
+
+Donations appreciated and help further development.
+ERG: 9h2S1RyesWMRdhrUU3DLuZxMTWkEsCQzMM9Qus8RHKKfJUE5zyb
+ADA: addr1q9t87awef636mn53nfvmpjuxedwdpck7akp8w7akqh4f7cf46du0zt3e9zykfv37q2gxdkdzwllytzy56r64zxkf8g0sr5uh43
+NANO: nano_1mfmkfr564rqfy3rhtx8cejs38a9muscekbar75o8fk7xp77syg1jx9hj98o
+BAN: ban_1ki8wehyfxe8d3pjzk91yzjpam5t9uzymozhmnmc1k3xitapm18jj591n4qk
