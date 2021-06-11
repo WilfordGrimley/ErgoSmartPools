@@ -20,14 +20,14 @@ The crowdfunding contract acts as an inital bootstrap to pool creation, and func
 
 ## Authorization
 The authorization contract aims to identify and disallow bad actors from participating in the pool. If a miner steals rewards this should act as a blacklist for all pools connected to the smart pool. 
-If individiual miner collateralization ends up being a requirement, this contract should also allow miners to participate and earn rewards up to the collateral they provide. 
+If individiual miner collateralization ends up being a requirement, this contract should also allow miners to participate and earn rewards up to the collateral they provide. This would work best as a token system. 
 
 ## Saturation Enforcement
 
-The saturation enforcement contract is responsibilty for redistributing block rewards earned by the smart pool to daughter pools and their miners proprtional to their hashing contribution up to the saturization level that was defined on daughter pool creation.
+The saturation enforcement contract is responsibilty for redistributing block rewards earned by the smart pool to daughter pools and their miners proprtional to their hashing contribution up to the saturization level that was defined on daughter pool creation. The key difference between this system and others is this feature. A daughter pool with more than it's designed level of hashpower pays out some of it's rewards to crowdfund the creation of more pools.
 
 ## Daughter Pools
-Daughter Pools are created whenever a crowdfunding target is reached. When a miner joins a 'pool' within this system they are joining a daughter pool. The daughter pools share all of their block rewards with the SmartPool and the Smart Pool pays the miners.
+Daughter Pools are created whenever a crowdfunding target is reached. When a miner joins a 'pool' within this system they are joining a daughter pool. A daughter pool can not be created unless called for by the Saturation Enforcer, and not unless enough collateral exists to cover the cost of a block reward.
 
 
 
