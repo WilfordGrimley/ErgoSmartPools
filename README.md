@@ -1,6 +1,7 @@
 # ErgoSmartPools
 
 This project is currently in the design phase and welcomes contribution in all forms.
+Current research focus: https://iohk.io/en/research/library/papers/conclavea-collective-stake-pool-protocol/
 
 
 The aim of this project is to make obselete the need for traditional mining pools in Ergo. It will enable otherwise solo miners to receive a steady income, financially incentivize decentralization, and be 100% more transparent than traditional mining pools.
